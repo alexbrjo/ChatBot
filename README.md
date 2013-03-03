@@ -4,12 +4,21 @@ An open-source chatbot
 
 ## Features
 
-   - [x] Easy Task addition
-      - [x] define word
-      - [x] Trigger/prompt on word
-      - [] youtube info  
-   - [] Multi-protocol
-      - [x] IRC
-      - [] Jabber (XMPP)
-      - [] Skype
-   - [] Other languages
+   - Easy Task addition
+   - Tasks
+      - define word
+      - Trigger/prompt on word
+   - Multi-protocol
+      -  IRC
+
+## Todo
+
+   - Other languages
+   - Task prority
+   - Tasks loaded from folder (more like plugins)
+   - Tasks
+      - youtube info  
+      - help
+   - Multi-protocol
+      - Jabber (XMPP)
+      - Skype
