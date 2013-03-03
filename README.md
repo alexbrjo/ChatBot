@@ -1,13 +1,13 @@
-h1. ChatBot
+.h1 ChatBot
 
 An open-source chatbot
 
-h2. Features
+.h2 Features
 
     * Easy Task addition
     * Multi-protocol
 
-h2. ToDo
+.h2 ToDo
 
     * Jabber
     * Skype
