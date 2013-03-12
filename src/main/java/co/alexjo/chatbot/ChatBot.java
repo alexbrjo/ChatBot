@@ -19,18 +19,18 @@ public class ChatBot {
     
     String na = "NA";
 
-    public ChatBot(String server, String channel, String nick, String owner) {
+    public ChatBot(String server, String channel, String nick, String owner) {     
         this.server = server;
         this.channel = channel;
         this.nick = nick;
         this.owner = owner;
-        
         loadTasks();
         connect();
     }
 
     public static void main(String[] args) {
-        ChatBot cb = new ChatBot("irc.example.com", "#example", "ChatBot", "Owner");
+        Settings.load("config.properties");
+        ChatBot cb = new ChatBot(Settings.ircServer, Settings.ircChannel, Settings.name, Settings.owner);
     }
 
     public void connect() {        
